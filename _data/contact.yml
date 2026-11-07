@@ -3,9 +3,9 @@
 - type: github
   icon: "fab fa-github"
 
-- type: linkedin
-  icon: "fab fa-linkedin"
-  url: "" # Fill with your LinkedIn profile URL
+# - type: linkedin
+#   icon: "fab fa-linkedin"
+#   url: "" # Fill with your LinkedIn profile URL, then uncomment these 3 lines
 
 - type: rss
   icon: "fas fa-rss"
