@@ -1,0 +1,12 @@
+#  The contact options shown at the bottom of the sidebar.
+
+- type: github
+  icon: "fab fa-github"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "" # Fill with your LinkedIn profile URL
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
