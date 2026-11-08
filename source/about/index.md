@@ -3,4 +3,4 @@ title: About
 layout: about
 ---
 
-Hello, I'm Oussema Toujeni, SOC Analyst.
+Hello, I'm Oussema Toujeni a  SOC Analyst.
