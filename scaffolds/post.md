@@ -1,5 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+categories: []
+tags: []
+index_img: /img/bg.jpg
+banner_img:
 ---
