@@ -14,10 +14,10 @@
 #---------------------------
 
 # Icon for browser tab
-favicon: /img/profile.png
+favicon: /img/favicon.png
 
 # Icon for Apple touch
-apple_touch_icon: /img/profile.png
+apple_touch_icon: /img/favicon.png
 
 # Title separator in browser tab, eg: article - site
 tab_title_separator: " - "
