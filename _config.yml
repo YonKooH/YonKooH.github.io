@@ -96,16 +96,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: redefine
+theme: yorukumo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
 
-# Local search index (used by the Search button)
-search:
-  path: search.xml
-  field: post
-  content: true
-  format: html

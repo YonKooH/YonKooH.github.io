@@ -1,0 +1,53 @@
+# YoruKumo theme settings for YonKoo's blog.
+# Overrides themes/yorukumo/_config.yml (Hexo merges this file on top of it).
+# Empty strings ('') are intentional: they hide the theme's sample values.
+
+# Website
+favicon: https://github.com/YonKooH.png
+logo: # leave empty to show the text title
+title: YonKoo
+
+# Top menu (labels come from themes/yorukumo/languages/en.yml -> menu:)
+menu:
+  Home: /
+  Posts: /posts/
+  Stats: /stats/
+  About: /about/
+
+# Top banner
+swiper:
+  image: /img/bg.jpg # your wallpaper (source/img/bg.jpg)
+  title: YonKoo
+
+# Page layouts
+layout:
+  stats: stats
+  archive: archive
+  category: category
+  about: about
+
+# Footer
+footer:
+  count:
+  since: 2026-11-07
+  authorLink: https://github.com/YonKooH
+  themeLink: https://github.com/AsukaCC/YoruKumo
+
+# About page profile card
+about:
+  name: 'YonKoo'
+  description: 'SOC Analyst · CTF player · HackTheBox'
+  avatar: https://github.com/YonKooH.png
+  email: '' # e.g. 'you@example.com' to show a copy-to-clipboard e-mail button
+  wechat: ''
+  qq: ''
+  github: 'https://github.com/YonKooH'
+  linkedin: '' # e.g. 'https://www.linkedin.com/in/your-name'
+
+# GSAP animations
+gsap:
+  enable: true
+  entrance_stagger: 0.08
+  scroll_trigger: true
+  parallax: true
+  hover_effect: true
