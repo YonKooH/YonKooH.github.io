@@ -819,7 +819,6 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/yonkooh", tip: "GitHub" }
     - { class: "iconfont icon-linkedin-fill", link: "https://www.linkedin.com/in/oussema-toujeni-713a00224/", tip: "LinkedIn" }
-    - { class: "iconfont icon-rss", link: "/atom.xml", tip: "RSS" }
 
 
 #---------------------------
