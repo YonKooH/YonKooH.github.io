@@ -7,9 +7,9 @@ cover: /img/covers/htb.svg
 description: Template writeup for a HackTheBox machine. Copy it to start your own.
 ---
 
-{% note info %}
+{% callout type="info" %}
 **Template post.** Copy this file in `source/_posts/`, rename it, change the front matter above and replace this text with your writeup.
-{% endnote %}
+{% endcallout %}
 
 ## Summary
 

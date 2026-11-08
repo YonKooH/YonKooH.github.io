@@ -1,4 +1,4 @@
-# YonKoo's blog — Hexo + Butterfly
+# YonKoo's blog — Hexo + Redefine
 
 ## Write a new post
 ```bash
@@ -17,8 +17,9 @@ npx hexo server     # http://localhost:4000
 ```
 
 ## Change things
-- Wallpaper: replace `source/img/bg.jpg`
-- Avatar: replace `source/img/avatar.svg` (or point `avatar.img` in `_config.butterfly.yml` to a .png/.jpg)
-- Menu, subtitle lines, sidebar, social links: `_config.butterfly.yml`
+- Wallpaper: replace `source/img/bg.jpg` (or change `home_banner.image` in `_config.redefine.yml`)
+- Avatar: replace `source/img/avatar.svg` (or point `defaults.avatar` in `_config.redefine.yml` to a .png/.jpg)
+- Menu, banner subtitle lines, sidebar, social links: `_config.redefine.yml`
 - Site title, URL: `_config.yml`
 - About page: `source/about/index.md`
+- Notes inside posts: `{% callout type="info" %} ... {% endcallout %}` (types: info, warning, danger, success, tip)

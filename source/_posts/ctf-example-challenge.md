@@ -7,9 +7,9 @@ cover: /img/covers/ctf.svg
 description: Template writeup for a CTF forensics challenge.
 ---
 
-{% note warning %}
+{% callout type="warning" %}
 **Template post** for a CTF challenge. Delete it once you have real writeups.
-{% endnote %}
+{% endcallout %}
 
 ## Challenge
 
