@@ -4,10 +4,10 @@
 
 # Site
 title: YonKoo
-subtitle: ''
-description: 'SOC Analyst by day, red teamer by night. HackTheBox and CTF writeups.'
-keywords: [cybersecurity, CTF, HackTheBox, writeups, SOC, red team]
-author: YonKoo
+subtitle: 'SOC Analyst'
+description: ''
+keywords:
+author: Oussema Toujeni
 language: en
 timezone: Africa/Tunis
 
@@ -96,10 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yorukumo
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-

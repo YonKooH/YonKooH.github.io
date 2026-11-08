@@ -1,0 +1,85 @@
+/* Wallpaper behind every page, with dark see-through "glass" panels on top. */
+
+body {
+  background: url("/img/bg.jpg") center / cover no-repeat fixed !important;
+}
+
+/* Main content panel and any solid page backgrounds */
+#board,
+.board,
+#board .container,
+.page-content,
+.post-content {
+  background: rgba(20, 24, 34, .75) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Avoid stacking glass on glass inside the board */
+#board .container,
+#board .page-content,
+#board .post-content {
+  background: transparent !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+#board {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .35);
+}
+
+/* Table of contents beside posts: same glass so it stays readable */
+#toc {
+  background: rgba(20, 24, 34, .75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+#toc, #toc .toc-header, #toc a { color: #e6e6e6 !important; }
+#toc .tocbot-active-link { color: #7cc4ff !important; }
+
+/* Footer: transparent, readable over the image */
+footer,
+.footer-inner {
+  background: transparent !important;
+  color: #e6e6e6 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+}
+footer a { color: #ffffff !important; }
+
+/* Readable text on the dark glass, in light and dark mode */
+#board,
+#board p,
+#board li,
+#board .markdown-body,
+#board .post-meta,
+#board .index-excerpt,
+#board .about-intro,
+#board .list-group-item {
+  color: #e6e6e6 !important;
+}
+#board h1, #board h2, #board h3, #board h4, #board h5, #board h6,
+#board .index-header a,
+#board .about-name {
+  color: #ffffff !important;
+}
+#board a:not(.btn):not(.list-group-item) { color: #7cc4ff; }
+#board a:not(.btn):not(.list-group-item):hover { color: #b3dcff; }
+#board .list-group-item { background: transparent !important; }
+#board hr, #board .markdown-body h1, #board .markdown-body h2 { border-color: rgba(255, 255, 255, .15) !important; }
+
+/* Phones: background-attachment: fixed is unreliable, use a fixed layer instead */
+@media (max-width: 768px) {
+  body {
+    background: none !important;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: url("/img/bg.jpg") center / cover no-repeat;
+  }
+}
