@@ -10,11 +10,11 @@ description: "You've landed on a domain-joined Windows box. Here are the tools t
 
 You find yourself on a **domain-joined Windows machine** during an assessment. Before touching anything loud, the first job is **enumeration** — map the domain, its users, computers, groups and shares.
 
-This post lists the commands two ways for each task: **PowerView** (the offensive toolkit) and the **ActiveDirectory module** (Microsoft's own, quieter and often already present). Pick whichever fits your situation.
+This post lists the commands two ways for each task: **PowerView**  and the **ActiveDirectory module** (Microsoft's own, quieter and often already present).
 
 <!-- more -->
 
-## Tools you need
+## Tools
 
 Load these before you start. `InviShell` hooks the registry so your PowerShell commands aren't logged by ScriptBlock/Module logging, then you import the AD module and PowerView.
 
@@ -37,12 +37,12 @@ Import-Module C:\AD\Tools\ADModule-master\ActiveDirectory\ActiveDirectory.psd1
 . .\PowerView.ps1
 ```
 
-> **Where to get the tools** — download them from their official repos and drop them in `C:\AD\Tools\`:
+> **Where to get the tools** — download them from their official repos and drop them from :
 > - **PowerView** → [PowerShellMafia/PowerSploit](https://github.com/PowerShellMafia/PowerSploit) (`Recon/PowerView.ps1`)
 > - **AD Module** → [samratashok/ADModule](https://github.com/samratashok/ADModule)
 > - **InviShell** → [OmerYa/Invisi-Shell](https://github.com/OmerYa/Invisi-Shell)
 >
-> Only use these in a lab or an engagement you're authorized to test.
+
 
 ## Domain info
 
