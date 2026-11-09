@@ -407,11 +407,7 @@ index:
 
     # If empty, text based on `subtitle` in hexo config, support list format to random selection of a row for display
     text:
-      - "The quieter you become, the more you can hear."
-      - "What you seek is also seeking you."
-      - "Fall seven times, stand up eight."
-      - "Know thyself."
-
+      - "YonKoo"
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
     api:
       enable: false
